@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 90% calibri, sans-serif;
+    text-align: center;
+}
+
+div#headding {
+    background-color: rgb(19, 165, 165);
+}
+
+div#headding h1 {
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    padding-left: 10px;
+    text-align: left;
+}
+
+div#container {
+    height: auto;
+    width: 700px;
+    margin: 0, auto;
+    text-align: left;
+}
+
+div#wrapper {
+    float: left;
+    width: 500px;
+}
+
+div#wrapper p {
+    line-height: 1.4;
+    text-align: justify;
+}
+
+div #navi {
+    float: left;
+    height: 500px;
+    background-color: rgba(0, 255, 242, 0.212);
+    width: 200px;
+}
+
+div #navi ul {
+    margin-left: 1px;
+    list-style-type: square;
+}
+
+div #navi li {
+    margin-bottom: 5px;
+}
+
+div #copyrights {
+    clear: both;
+    width: 100%;
+    background-color: aqua;
+}
+
+div #copyrights p {
+    margin: 0;
+    padding: 5px 10px;
+}
+
+a {
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: green;
+    cursor: pointer;
+}
+
+p {
+    margin: 0 10px;
+}
+
+#header {
+    text-align: center;
+}
+
+#center {
+    text-align: left;
+    height: auto;
+    width: 300px;
+    margin-left: 100px;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+}
+
+#st {
+    width: 200px;
+}
+
+#sm {
+    margin-left: 75px;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+.sucess {
+    color: green;
+    text-align: center;
+}
+
+.record {
+    list-style-type: square;
+}
+
+.record li {
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td,
+table th {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
